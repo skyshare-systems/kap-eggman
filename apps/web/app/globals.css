@@ -7,6 +7,11 @@
   src: url("./font/BagelFatOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: "redhatdisplay";
+  src: url("./font/RedHatDisplay-Regular.ttf");
+}
+
 @layer base {
 }
 
@@ -17,4 +22,31 @@
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   text-shadow: 0px 6px 0px #fef500;
+}
+
+.title-stroke-egg {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0px 12px 0px #fef500;
+}
+
+.title-stroke-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.image-shadow {
+  box-shadow: -8px 8px 0px #fef500;
+}
+
+.button-shadow {
+  box-shadow: 0px 8px 0px #fef500;
+}
+
+.socmed-shadow {
+  box-shadow: -2px 4px 0px #fef500;
+}
+
+html {
+  scroll-behavior: smooth;
 }

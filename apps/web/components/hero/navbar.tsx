@@ -43,7 +43,6 @@ const NavbarPage = () => {
               <a
                 key={index}
                 href={data.route}
-                onClick={handleBgClick}
                 className={`font-[bagel] opacity-50 title-stroke-text hover:opacity-100 hover:text-yellow-500 duration-300 text-xl`}
               >
                 {data.label}
@@ -58,7 +57,7 @@ const NavbarPage = () => {
       </div>
 
       <div className="fixed right-0 p-5 flex flex-row justify-end lg:hidden z-[999999]">
-        <div className="lg:hidden " onClick={handleClick}>
+        <div className="lg:hidden " onClick={handleBgClick}>
           {!nav ? (
             <Image
               src={"/assets/hamburger-icon.svg"}

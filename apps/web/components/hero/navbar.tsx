@@ -32,7 +32,7 @@ const NavbarPage = () => {
 
   return (
     <>
-      <div className="fixed top-0 w-full  justify-center items-center bg-white py-2 z-[3] ">
+      <div className="fixed top-0 w-full flex justify-center items-center bg-white py-2 z-[3] ">
         <div className="flex flex-row justify-between items-center max-w-[1400px] w-full ">
           <p className="font-[bagel] text-[40px] text-white titlestroke">
             $EGG

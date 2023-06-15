@@ -40,14 +40,14 @@ const NavbarPage = () => {
 
           <div className="hidden lg:flex items-center justify-evenly gap-5 ">
             {navigation.map((data, index) => (
-              <Link
+              <a
                 key={index}
                 href={data.route}
                 onClick={handleBgClick}
                 className={`font-[bagel] opacity-50 title-stroke-text hover:opacity-100 hover:text-yellow-500 duration-300 text-xl`}
               >
                 {data.label}
-              </Link>
+              </a>
             ))}
           </div>
 
@@ -85,14 +85,14 @@ const NavbarPage = () => {
       >
         <div className="flex flex-col items-center gap-y-10">
           {navigation.map((data, index) => (
-            <Link
+            <a
               key={index}
               href={data.route}
               onClick={handleBgClick}
               className={`font-[bagel] opacity-50 title-stroke-text hover:opacity-100 hover:text-yellow-500 duration-300 text-xl`}
             >
               {data.label}
-            </Link>
+            </a>
           ))}
           <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow">
             BUY $EGG

@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="flex justify-center items-center py-[8rem] bg-[url('/assets/about-bg.webp')] bg-cover bg-no-repeat">
+    <div
+      className="flex justify-center items-center py-[8rem] bg-[url('/assets/about-bg.webp')] bg-cover bg-no-repeat"
+      id="aboutegg"
+    >
       <div className="flex flex-col grow max-w-[1400px] px-2 2xl:px-0 gap-11">
         <div className="flex flex-col xl:flex-row justify-between items-center gap-5">
           <div className="flex flex-col gap-5">
-            <h1
-              className="font-[bagel] text-xl sm:text-2xl md:text-5xl"
-              id="aboutegg"
-            >
+            <h1 className="font-[bagel] text-xl sm:text-2xl md:text-5xl">
               ABOUT $EGG
             </h1>
 

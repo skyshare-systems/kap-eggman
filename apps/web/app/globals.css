@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "bagel";
+  src: url("./font/BagelFatOne-Regular.ttf");
+}
+
+@layer base {
+}
+
+@layer components {
+}
+
+.titlestroke {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0px 6px 0px #fef500;
+}

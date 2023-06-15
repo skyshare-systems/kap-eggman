@@ -9,10 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        bagel: ["Bagel Fat One"],
-      },
-
       //Screens
       screens: {
         xsm: "375px",

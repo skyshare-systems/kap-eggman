@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -29,6 +29,15 @@ const NavbarPage = () => {
       label: "MEMEFI",
     },
   ];
+
+  const hide = "hidden";
+  const show = "auto";
+
+  useEffect(() => {
+    nav
+      ? (document.body.style.overflowY = hide)
+      : (document.body.style.overflowY = show);
+  }, [nav]);
 
   return (
     <>

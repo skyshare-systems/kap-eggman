@@ -41,7 +41,7 @@ const NavbarPage = () => {
 
   return (
     <>
-      <div className="fixed top-0 w-full flex justify-center items-center bg-white py-2 z-[3] ">
+      <div className="fixed top-0 w-full flex justify-center items-center bg-white py-2 z-[999999] ">
         <div className="flex flex-row justify-between items-center max-w-[1400px] w-full ">
           <p className="font-[bagel] text-[40px] text-white titlestroke">
             $EGG
@@ -58,14 +58,18 @@ const NavbarPage = () => {
               </a>
             ))}
           </div>
-
-          <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow hidden lg:flex">
-            BUY $EGG
-          </button>
+          <Link
+            target="_blank"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0x71C7656EC7ab88b098defB751B7401B5f6d8976F&inputCurrency=%200xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
+          >
+            <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow hidden lg:flex">
+              BUY $EGG
+            </button>
+          </Link>
         </div>
       </div>
 
-      <div className="fixed right-0 p-5 flex flex-row justify-end lg:hidden z-[999999]">
+      <div className="fixed right-0 p-5 flex flex-row justify-end lg:hidden z-[99999999]">
         <div className="lg:hidden " onClick={handleBgClick}>
           {!nav ? (
             <Image
@@ -88,7 +92,7 @@ const NavbarPage = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed inset-0 h-screen w-screen flex flex-col justify-center items-center bg-white"
+            : "fixed inset-0 h-screen w-screen flex flex-col justify-center items-center bg-white z-[9999999]"
         }
       >
         <div className="flex flex-col items-center gap-y-10">
@@ -102,9 +106,14 @@ const NavbarPage = () => {
               {data.label}
             </a>
           ))}
-          <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow">
-            BUY $EGG
-          </button>
+          <Link
+            target="_blank"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0x71C7656EC7ab88b098defB751B7401B5f6d8976F&inputCurrency=%200xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
+          >
+            <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow">
+              BUY $EGG
+            </button>
+          </Link>
         </div>
       </div>
     </>

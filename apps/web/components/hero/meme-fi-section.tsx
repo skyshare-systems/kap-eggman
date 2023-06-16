@@ -65,13 +65,18 @@ const MemeFiPage = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div>{" "}
             </div>
-            <Link href="http://Eggroll.eggmancoin.com" target="_blank">
-              <button className="bg-black px-5 py-3 font-[bagel] text-lg sm:text-xl md:text-xl text-white uppercase button-shadow">
-                Launch Egg Roll
-              </button>
-            </Link>
+            <div className="flex flex-col justify-center items-center">
+              <h1 className="font-[bagel] text-lg sm:text-xl md:text-xl text-black text-center sm:title-stroke-egg uppercase px-11 py-5 w-full">
+                BEST VIEWED ON DESKTOP
+              </h1>
+              <Link href="http://Eggroll.eggmancoin.com" target="_blank">
+                <button className="bg-black px-5 py-3 font-[bagel] text-lg sm:text-xl md:text-xl text-white uppercase button-shadow">
+                  Launch Egg Roll
+                </button>
+              </Link>
+            </div>
           </div>
           {/* Egg Roll  */}
           <div className="flex flex-col justify-between items-center p-5 w-full h-auto md:h-[90vh] max-w-[720px] md:max-h-[700px] bg-[#fef500] gap-2">

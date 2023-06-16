@@ -60,7 +60,7 @@ const NavbarPage = () => {
           </div>
           <Link
             target="_blank"
-            href="https://app.uniswap.org/#/swap?outputCurrency=0x71C7656EC7ab88b098defB751B7401B5f6d8976F&inputCurrency=%200xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
           >
             <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow hidden lg:flex">
               BUY $EGG
@@ -108,7 +108,7 @@ const NavbarPage = () => {
           ))}
           <Link
             target="_blank"
-            href="https://app.uniswap.org/#/swap?outputCurrency=0x71C7656EC7ab88b098defB751B7401B5f6d8976F&inputCurrency=%200xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0xed5e50bcE863f390Ff55a4bF6F2D5069d17AC5C0"
           >
             <button className="font-[bagel] text-lg px-3 py-3 border-[1px] border-[#000000] rounded-xl button-shadow">
               BUY $EGG

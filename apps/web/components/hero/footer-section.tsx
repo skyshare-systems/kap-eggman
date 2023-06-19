@@ -16,18 +16,18 @@ const FooterPage = () => {
       imgUrl: "/assets/socmed/twitter-icon.svg",
       linkUrl: "https://twitter.com/eggmancoin",
     },
-    // {
-    //   id: 3,
-    //   name: "youtube",
-    //   imgUrl: "/assets/socmed/youtube-icon.svg",
-    //   linkUrl: "/",
-    // },
-    // {
-    //   id: 4,
-    //   name: "discord",
-    //   imgUrl: "/assets/socmed/discord-icon.svg",
-    //   linkUrl: "/",
-    // },
+    {
+      id: 3,
+      name: "github",
+      imgUrl: "/assets/socmed/github-logo.svg",
+      linkUrl: "https://github.com/skyshare-systems/kap-eggman",
+    },
+    {
+      id: 4,
+      name: "discord",
+      imgUrl: "/assets/socmed/discord-icon.svg",
+      linkUrl: "https://discord.gg/fK2ycYeHKP",
+    },
   ];
 
   return (
@@ -42,7 +42,7 @@ const FooterPage = () => {
                   alt={data.name}
                   height={50}
                   width={50}
-                  className="bg-white rounded-full socmed-shadow border-[2px] border-[#000000] hover:opacity-50 duration-200"
+                  className="bg-white rounded-full socmed-shadow p-1 border-[2px] border-[#000000] hover:opacity-50 duration-200"
                 />
               </Link>
             );

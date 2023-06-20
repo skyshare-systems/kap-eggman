@@ -47,6 +47,7 @@
   box-shadow: -2px 4px 0px #fef500;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
 }

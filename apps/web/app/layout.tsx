@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "$Egg Man",
-  description: "$Egg Man to $EGG MAN",
+  title: "$EGG MAN",
+  description: "$EGG MAN",
 };
 
 export default function RootLayout({

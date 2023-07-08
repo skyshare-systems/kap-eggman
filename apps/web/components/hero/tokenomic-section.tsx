@@ -12,7 +12,7 @@ const TokenomicsPage = () => {
       className="flex justify-center items-center py-[8rem] bg-[url('/assets/tokenomics-bg.webp')] bg-cover bg-no-repeat"
       id="tokenomics"
     >
-      <div className="flex flex-col justify-center items-center grow max-w-[1400px] px-2 2xl:px-0 gap-8">
+      <div className="flex flex-col justify-center items-center grow max-w-[1400px] px-2 2xl:px-1 gap-8">
         <h1 className="text-center text-white font-[bagel] text-xl sm:text-2xl md:text-5xl">
           Tokenomics
         </h1>
